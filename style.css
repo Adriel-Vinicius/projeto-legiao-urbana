@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+ section {
+    line-height: 2em;
+ }
+ 
+a {
+    text-decoration: none;
+    color: rgb(10, 145, 199);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+header {
+    background-color: black;
+    color: white;
+}
+
+header > h1, h2 {
+    text-align: center;
+    line-height: 2em;
+    
+}
+
+.cancao {
+    position: absolute;
+    
+    right: 10px;
+}
+
+.image {
+    background-color: gray;
+}
+
+section.image > p {
+    padding: 1em;
+    width: 180px;
+    background-color: rgb(167, 25, 25);
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+}
