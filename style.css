@@ -3,9 +3,36 @@
 * {
     padding: 0px;
     margin: 0px;
+
 }
- section {
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Sriracha&display=swap');
+
+:root {
+
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: "Sriracha", cursive;
+    --font3: "Passions Conflict", cursive;
+}
+
+p {
+    padding: 1em;
+    margin: 0em 1em;
+}
+
+section > p {
+
+    font-size: 3vw;
     line-height: 2em;
+}
+
+ section {
+    font-weight: bolder;
+    line-height: 2em;
+    font-family: var(--font3);
+    
  }
  
 a {
@@ -17,22 +44,39 @@ a:hover {
     text-decoration: underline;
 }
 
-
 header {
+    
     background-color: black;
     color: white;
+    font-family: var(--font2);
+    font-size: 2vh;
+    margin: 0;
+    padding: 0;
 }
 
 header > h1, h2 {
+    font-size: 4.5vw;
     text-align: center;
     line-height: 2em;
     
+    
 }
 
+
+
+
+
 .cancao {
-    position: absolute;
-    
-    right: 10px;
+    display: inline-block;
+    font-size: 2vw;
+    margin: 0%;
+    padding: 0%;
+}
+
+.cancao:hover {
+    border-radius: 10px;
+    display: inline-block;
+    background-color: rgba(27, 27, 27, 0.856);
 }
 
 .image {
@@ -40,8 +84,8 @@ header > h1, h2 {
 }
 
 section.image > p {
-    padding: 1em;
-    width: 180px;
+    
+    display: inline-block;
     background-color: rgb(167, 25, 25);
 }
 
@@ -49,4 +93,8 @@ section.image > p {
 footer {
     background-color: black;
     color: white;
+    margin: auto;
+    text-align: center;
 }
+
+
