@@ -29,6 +29,8 @@ section > p {
 }
 
  section {
+
+    
     font-weight: bolder;
     line-height: 2em;
     font-family: var(--font3);
@@ -79,14 +81,46 @@ header > h1, h2 {
     background-color: rgba(27, 27, 27, 0.856);
 }
 
+
 .image {
-    background-color: gray;
+
+    box-shadow: inset 3px 3px 10px black;
+    background-attachment: fixed;
 }
 
-section.image > p {
+
+.image#img1 {
+    background-color: gray;
+    background-image: url(imagens/clock-1274699_1280.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
     
+    
+}
+
+.image#img2 {
+    
+    background-color: rgb(59, 58, 58);
+    background-image: url(imagens/man-2915187_1280.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+#img1 > p {
+
+    background-color: rgba(189, 189, 189, 0.247);
+}
+section.image > p {
+
+    margin-top: 3em ;
+    margin-bottom: 3em;
+    border-radius: 10px;
     display: inline-block;
-    background-color: rgb(167, 25, 25);
+    background-color: rgba(36, 35, 35, 0.459);
 }
 
 
